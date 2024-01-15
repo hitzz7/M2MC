@@ -1,11 +1,6 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from urllib.parse import urlparse, parse_qs
-import json
-import sqlite3
-import threading
-import cgi
-import uuid
-import os
+
 from PIL import Image
 import mysql.connector
 

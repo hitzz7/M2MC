@@ -182,7 +182,7 @@ class CategoryHandler(BaseHTTPRequestHandler):
     def do_PUT(self):
         if self.path.startswith('/categories/'):
             try:
-                # Extract category ID from the request path
+                
                 category_id = int(self.path.split('/')[2])
 
                 # Parse the request body to get the updated category data
